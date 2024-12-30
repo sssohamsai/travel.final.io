@@ -133,14 +133,16 @@
     font-size: 30px;
 }
 
-/* .inpt input{
-width: 280px;
-} */
+.btns{
+    width: 150px;
+}
+.item2 li a,
+.item3 li a{
+text-decoration: none;
+color: black;
 
-/* .email1  input,
-.email1 label{
-    margin-left: 68px;
-} */
+}
+
 @media (max-width: 767px) {
     .row.d-flex {
         justify-content: center; 
@@ -153,12 +155,26 @@ width: 280px;
         align-items: center; 
     }
 }
-.btns{
-    width: 150px;
-}
-.item2 li a,
-.item3 li a{
-text-decoration: none;
-color: black;
 
+@media (min-width: 621px) and (max-width: 1278px) { 
+    .abt-card img{
+        /* width: 1250px; */
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+    .abt-card{
+        width: 100%;
+        align-items: center;
+    }
+
+    .about-right,
+    .abt-icon{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
 }
+
